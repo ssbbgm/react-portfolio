@@ -11,7 +11,10 @@ function Project () {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <div className='d-flex justify-content-around'>
+            <a className='btn btn-primary space-evenly' href='#'>GitHub</a>
+            <a className='btn btn-primary' href='#'>Project</a>
+        </div>
       </Card.Body>
     </Card>
   );
