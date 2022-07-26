@@ -10,8 +10,8 @@ function Project (props) {
           {props.text}
         </Card.Text>
         <div className='d-flex justify-content-around'>
-            <a className='btn btn-primary space-evenly' href={props.github} target='_blank'>GitHub</a>
-            <a className='btn btn-primary' href={props.deployed} target='_blank'>Project</a>
+            <a className='btn btn-primary space-evenly' href={props.github} target='_blank' rel='noreferrer'>GitHub</a>
+            <a className='btn btn-primary' href={props.deployed} target='_blank' rel='noreferrer'>Project</a>
         </div>
       </Card.Body>
     </Card>
