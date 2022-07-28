@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" fixed='top'>
       <Container>
         <Navbar.Brand href="#home">Sherreka S. Burton</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
