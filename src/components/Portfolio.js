@@ -5,7 +5,7 @@ import About from './About';
 import Work from './Work';
 import Contact from './Contact';
 import Resume from './Resume';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 export default function Portfolio () {
   return (
@@ -16,7 +16,7 @@ export default function Portfolio () {
           <Work />
           <Contact />
           <Resume />
-          {/* <Footer /> */}
+          <Footer />
       </div>
   )
 };

@@ -9,7 +9,6 @@ import javascript from '../images/javascript.png';
 import sql from '../images/sql.png';
 
 
-
 function Resume() {
   return (
     <Container className='mt-3'>
