@@ -4,6 +4,7 @@ import Intro from './Intro';
 import About from './About';
 import Work from './Work';
 import Contact from './Contact';
+import Resume from './Resume';
 // import Footer from './Footer';
 
 export default function Portfolio () {
@@ -14,6 +15,7 @@ export default function Portfolio () {
           <About />
           <Work />
           <Contact />
+          <Resume />
           {/* <Footer /> */}
       </div>
   )
