@@ -9,7 +9,7 @@ function Intro() {
     <Container fluid="md" className="mt-100">
       <Row>
         <Col style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <div id="typewriter" textAlign='center'>
+          <div id="typewriter" textalign='center'>
             <Typewriter
               options={{
                 strings: [
