@@ -11,7 +11,7 @@ export default function CustomFooter() {
     <footer className="mt-3">
       <Row>
         <Col sm={{ span: 1, offset: 4 }} className="text-center">
-          <a href="https://github.com/ssbbgm">
+          <a href="https://github.com/ssbbgm" target='_blank' rel='noreferrer'>
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </Col>
@@ -19,7 +19,7 @@ export default function CustomFooter() {
           Sherreka S. Burton &copy; {new Date().getFullYear()}
         </Col>
         <Col sm={1} className="text-center">
-          <a href="https://www.linkedin.com/in/sherreka-burton">
+          <a href="https://www.linkedin.com/in/sherreka-burton" target='_blank' rel='noreferrer'>
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </Col>
