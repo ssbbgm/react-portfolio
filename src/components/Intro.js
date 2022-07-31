@@ -9,16 +9,17 @@ function Intro() {
     <Container fluid="md" className="mt-100">
       <Row>
         <Col style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-          <div id="typewriter">
+          <div id="typewriter" textAlign='center'>
             <Typewriter
               options={{
                 strings: [
-                  "Hey there, my name is Sherreka!",
-                  "Welcome to my page!",
-                  "I appreciate you for stopping by!",
-                  "Feel free to look around...",
-                  "Hit me up if you want to get in touch!",
+                  "<h1>Hey there, my name is <span style='color: blue;'>Sherreka!</span></h1>",
+                  "<h1>Welcome to my page!</h1>",
+                  "<h1>I appreciate you for stopping by!</h1>",
+                  "<h1>Feel free to look around...</h1>",
+                  "<h1>Hit me up if you want to get in touch!</h1>",
                 ],
+                cursor: '❤️',
                 autoStart: true,
                 loop: true,
               }}
@@ -26,7 +27,7 @@ function Intro() {
           </div>
         </Col>
         <Col style={{ display: 'flex', justifyContent: 'center'}}>
-            <img src={Sherreka} alt="stats of sherreka"  />
+            <img src={Sherreka} alt="sherreka smiling"  />
         </Col>
       </Row>
     </Container>
