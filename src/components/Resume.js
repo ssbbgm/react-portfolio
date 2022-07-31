@@ -15,26 +15,28 @@ function Resume() {
     <h2 className='text-center mt-3' id='about'>Resume</h2>
       <Row className='me-auto mt-3'>
         <Col>
-            <h3>Click image for a copy of my resume!</h3>
-            <a href='https://drive.google.com/file/d/1IHTezjZatwZdYPpu41erNZ6eqANcyvor/view?usp=sharing' target='_blank' rel='noreferrer'><Image src={resume}  rounded/></a>
+            <h3 className='text-center mt-3'>Click image for my resume!</h3>
+            <div className='text-center mt-3'>
+                <a href='https://drive.google.com/file/d/1IHTezjZatwZdYPpu41erNZ6eqANcyvor/view?usp=sharing' target='_blank' rel='noreferrer'><Image src={resume}  rounded/></a>
+            </div>
         </Col>
         <Col>
             <Container>
                 <Row>
-                    <Col>
+                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
                         <Image src={html}/>
                     </Col>
-                    <Col>
+                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
                         <Image src={css} />
                     </Col>
                 </Row>
             </Container>
             <Container className='mt-5'>
                 <Row>
-                    <Col>
+                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
                         <Image src={javascript}/>
                     </Col>
-                    <Col>
+                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
                         <Image src={sql}/>
                     </Col>
                 </Row>
