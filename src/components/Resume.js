@@ -20,27 +20,29 @@ function Resume() {
                 <a href='https://drive.google.com/file/d/1IHTezjZatwZdYPpu41erNZ6eqANcyvor/view?usp=sharing' target='_blank' rel='noreferrer'><Image src={resume}  rounded/></a>
             </div>
         </Col>
-        <Col>
+        <Col style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+            <div>
             <Container>
                 <Row>
-                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
+                    <Col>
                         <Image src={html}/>
                     </Col>
-                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
+                    <Col>
                         <Image src={css} />
                     </Col>
                 </Row>
             </Container>
             <Container className='mt-5'>
                 <Row>
-                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
+                    <Col >
                         <Image src={javascript}/>
                     </Col>
-                    <Col style={{ display: 'flex', justifyContent: 'center'}}>
+                    <Col>
                         <Image src={sql}/>
                     </Col>
                 </Row>
             </Container>
+            </div>
         </Col>
       </Row>
     </Container>
