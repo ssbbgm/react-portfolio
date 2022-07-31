@@ -12,15 +12,15 @@ export default function CustomFooter() {
       <Row>
         <Col sm={{ span: 1, offset: 4 }} className="text-center">
           <a href="https://github.com/ssbbgm" target='_blank' rel='noreferrer'>
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon icon={faGithub} size="xl"/>
           </a>
         </Col>
         <Col sm={2} className="text-center">
-          Sherreka S. Burton &copy; {new Date().getFullYear()}
+          <h6>Sherreka S. Burton &copy; {new Date().getFullYear()}</h6>
         </Col>
         <Col sm={1} className="text-center">
           <a href="https://www.linkedin.com/in/sherreka-burton" target='_blank' rel='noreferrer'>
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedin} size="xl"/>
           </a>
         </Col>
       </Row>

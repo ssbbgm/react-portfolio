@@ -11,7 +11,6 @@ const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
 
     emailjs
       .sendForm(
@@ -37,7 +36,7 @@ const Contact = () => {
         Contact
       </h2>
       <Container className="d-flex justify-content-center">
-        <Form ref={form} className="mb-0 w-50">
+        <Form ref={form} onSubmit={sendEmail} className="mb-0 w-50">
           <Row>
             <Form.Group as={Col} controlId="formGridFirstName">
               <Form.Label>First Name</Form.Label>
@@ -79,7 +78,7 @@ const Contact = () => {
             />
           </Form.Group>
           <Container className="d-flex justify-content-center">
-            <Button variant="primary" type="submit" onSubmit={sendEmail}>
+            <Button variant="primary" type="submit">
               Submit
             </Button>
           </Container>
