@@ -8,8 +8,8 @@ function Intro() {
   return (
     <Container fluid="md" className="mt-100">
       <Row>
-        <Col>
-          <div id="typewriter" className="text-center">
+        <Col style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+          <div id="typewriter">
             <Typewriter
               options={{
                 strings: [
