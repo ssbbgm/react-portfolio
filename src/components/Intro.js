@@ -6,49 +6,27 @@ import Typewriter from "typewriter-effect";
 
 function Intro() {
   return (
-    <Container>
-      <Row className="me-auto">
+    <Container fluid="md" className="mt-100">
+      <Row>
         <Col>
-          <div className="text-center">
-            {/* <TypeWriterEffect
-            textStyle={{
-              fontFamily: 'Red Hat Display',
-              color: '#3F3D56',
-              fontWeight: 500,
-              fontSize: '1.5em',
-            }}
-            startDelay={2000}
-            cursorColor="#3F3D56"
-            multiText={[
-              'Hey there, my name is Sherreka!',
-              'Welcome to my page!',
-              'I appreciate you for stopping by!',
-              'Feel free to look around...',
-              'Hit me up if you want to get in touch!',
-            ]}
-            loop={true}
-            nextTextDelay={1000}
-            typeSpeed={100}
-          /> */}
+          <div id="typewriter" className="text-center">
             <Typewriter
               options={{
-                strings:[
-                'Hey there, my name is Sherreka!',
-                'Welcome to my page!',
-                'I appreciate you for stopping by!',
-                'Feel free to look around...',
-                'Hit me up if you want to get in touch!',
+                strings: [
+                  "Hey there, my name is Sherreka!",
+                  "Welcome to my page!",
+                  "I appreciate you for stopping by!",
+                  "Feel free to look around...",
+                  "Hit me up if you want to get in touch!",
                 ],
                 autoStart: true,
                 loop: true,
               }}
-          
-
             />
           </div>
         </Col>
-        <Col>
-          <img src={Sherreka} alt="stats of sherreka" />
+        <Col style={{ display: 'flex', justifyContent: 'center'}}>
+            <img src={Sherreka} alt="stats of sherreka"  />
         </Col>
       </Row>
     </Container>
